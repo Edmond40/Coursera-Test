@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/eddy.jpeg);
+    background-size: cover;
+    height: 200vh;
+    width: 200vh;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+
+.nav-bar{
+    height: 100px;
+    height: 75px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #d3c939;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(156, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4,ease-in-out;
+}
+
+ul li a:hover{
+    color: #52d1d1;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+.h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    place-items: center;
+    margin: 50px auto;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    outline: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1{
+    text-align: left;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 130px;
+}
+
+.input{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(235, 107, 107);
+}
+button{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.148);
+    border: none;
+}
+
+.input i{
+    position: absolute;
+    right: 20px;
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: medium;
+}
+.header{
+    align-items: center;
+    text-decoration: #52d1d1;
+    color: #18fedd;
+}
